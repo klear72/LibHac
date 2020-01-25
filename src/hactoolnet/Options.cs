@@ -84,7 +84,8 @@ namespace hactoolnet
         Kip1,
         Ini1,
         Ndv0,
-        Bench
+        Bench,
+        SearchSdk
     }
 
     internal class Context

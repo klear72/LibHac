@@ -151,6 +151,7 @@ namespace hactoolnet
                 case "ini1": return FileType.Ini1;
                 case "ndv0": return FileType.Ndv0;
                 case "bench": return FileType.Bench;
+                case "searchsdk": return FileType.SearchSdk;
             }
 
             PrintWithUsage("Specified type is invalid.");

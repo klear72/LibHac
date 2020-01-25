@@ -158,6 +158,9 @@ namespace hactoolnet
                 case FileType.Bench:
                     ProcessBench.Process(ctx);
                     break;
+                case FileType.SearchSdk:
+                    new ProcessSearchSdk(ctx).Process();
+                    break;
                 default:
                     throw new ArgumentOutOfRangeException();
             }
